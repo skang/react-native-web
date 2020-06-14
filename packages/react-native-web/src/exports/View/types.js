@@ -56,7 +56,7 @@ export type ViewStyle = {
   WebkitOverflowScrolling?: 'auto' | 'touch'
 };
 
-export type ViewProps = {
+export type ViewPropTypes = {
   accessibilityLabel?: string,
   accessibilityLiveRegion?: 'none' | 'polite' | 'assertive',
   accessibilityRelationship?: {
